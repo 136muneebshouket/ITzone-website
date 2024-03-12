@@ -1,0 +1,17 @@
+.loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(3.1px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader span{
+    display: block;
+    width: max(200px , 20vw);
+    height: max(200px , 20vw);;
+    color: brown;
+}
