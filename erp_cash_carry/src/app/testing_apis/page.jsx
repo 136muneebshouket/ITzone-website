@@ -31,6 +31,18 @@ const page = () => {
         console.log(err)
     });
  }
+ async function check_get_api_next() {
+    let obj = { cars: ['honda vr' ,'bmw'] , type: 'auto' }
+    // let jsonobj = JSON.stringify(obj)
+
+     await axios.get(`/api/testing-APIs?cars=honda&type=auto`)
+    // await axios.get(`/api/testing-APIs` , { params : obj })
+   .then((result) => {
+        console.log(result.data)
+    }).catch((err) => {
+        console.log(err)
+    });
+ }
 
 
 
@@ -39,11 +51,12 @@ const page = () => {
 
    
    <h1>Testing APIs</h1>
-
+{/* 
    <button onClick={check_api}>Test post api</button>
-   <button onClick={check_get_api}>Test get api</button>
+   <button onClick={check_get_api}>Test get api</button> */}
 
    <button onClick={check_post_api_next}>Test post api next.js</button>
+   <button onClick={check_get_api_next}>Test get api next.js</button>
 
    
    </>
