@@ -24,7 +24,7 @@ const page = () => {
  }
  async function check_post_api_next() {
    
-    await axios.post(`/api/testing-APIs` ,{name:"muneeb"})
+    await axios.post(`/api/testing-APIs` ,{name:"muneeb",lastname:'shouket'})
     .then((result) => {
         console.log(result.data)
     }).catch((err) => {

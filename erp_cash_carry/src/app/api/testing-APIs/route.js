@@ -1,12 +1,24 @@
-
+import dbConnect from "@/config/dbconnect"
+import user from "@/schemas/user"
 
 export async function POST(request) {
+    try {
+        dbConnect()
 
-    let data = await request.json()
-
-    console.log(data)
-
-    return Response.json('your req has been received')
+        let data = await request.json()
+    
+        // console.log(data)
+    
+        let storedata = await user.create(data)
+        if(!storedata){
+          throw new Error('something wrong in db')
+        }
+    
+        return Response.json('your req has been received')
+    } catch (error) {
+        return Response.json(error.message)
+    }
+   
 
 }
 
