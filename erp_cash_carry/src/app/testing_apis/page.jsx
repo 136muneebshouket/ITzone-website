@@ -22,6 +22,8 @@ const page = () => {
         console.log(err)
     });
  }
+
+
  async function check_post_api_next() {
    
     await axios.post(`/api/testing-APIs` ,{name:"muneeb",lastname:'shouket'})
@@ -31,6 +33,8 @@ const page = () => {
         console.log(err)
     });
  }
+
+
  async function check_get_api_next() {
     let obj = { cars: ['honda vr' ,'bmw'] , type: 'auto' }
     // let jsonobj = JSON.stringify(obj)

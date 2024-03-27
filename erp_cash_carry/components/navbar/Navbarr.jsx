@@ -15,7 +15,9 @@ const Navbarr = () => {
       {/* <li><Link href="/useref">Use ref</Link></li> */}
       {/* <li><Link href="/ssr">Server side</Link></li>
       <li><Link href="/client-side">Client side</Link></li> */}
-      <li><Link href="/testing_apis">testing_apis</Link></li> 
+      {/* <li><Link href="/testing_apis">testing_apis</Link></li>  */}
+      <li><Link href="/adduser">Add user</Link></li> 
+      <li><Link href="/getusers">users</Link></li> 
     </ul>
     </nav>
    

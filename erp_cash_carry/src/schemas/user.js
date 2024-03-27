@@ -8,13 +8,13 @@ const userschema = new mongoose.Schema({
         type:String,
         required:true
     },
-    lastname:{
+    email:{
         type:String,
+        required:true,
+        unique:true
     },
-
-
 
 },{ timestamps: true })
 
 
-export default mongoose.models.user || mongoose.model("user", userschema);
+export default mongoose.models.users || mongoose.model("users", userschema);
