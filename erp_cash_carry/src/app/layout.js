@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import "@/app/css/navbar.css";
 import "@/app/css/loader.css";
+import "@/app/css/edit_modal.css";
 import Navbarr from "../../components/navbar/Navbarr";
 import Provider from "../configs/Provider";
 
