@@ -14,10 +14,10 @@ export default function Home() {
     <>
     <Header/>
     <About/>
-    <Choose_us/>
+    {/* <Choose_us/> */}
     {/* <Services/> */}
-    <Services_2/>
-    <Team/>
+    {/* <Services_2/> */}
+    {/* <Team/> */}
     <Contact/>
     <Footer/>
     

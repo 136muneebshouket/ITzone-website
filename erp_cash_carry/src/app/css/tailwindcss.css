@@ -245,7 +245,7 @@ a, button {
 }
 
 /* ========== about ========== */
-.about_image {
+/* .about_image {
   @apply lg:absolute top-0 left-0 w-full lg:w-1/2 h-auto lg:h-full mx-auto mt-13 lg:mt-0 px-5 lg:px-0; 
 }
 .about_image img {
@@ -253,10 +253,10 @@ a, button {
 }
 .about_check i {
   @apply w-7 h-7 flex items-center justify-center text-white bg-theme-color rounded-full text-base mt-1;
-}
+} */
 
 /* ======= work ======== */
-.single_item {
+/* .single_item {
   max-width: 370px;
 }
 .single_work {
@@ -270,10 +270,10 @@ a, button {
 }
 .work_title a {
   @apply text-black hover:text-theme-color;
-}
+} */
 
 /* ======== team ======= */
-.tns-nav {
+/* .tns-nav {
   @apply absolute -bottom-5 left-0 w-full flex items-center justify-center z-10;
 }
 .tns-nav button {
@@ -286,7 +286,7 @@ a, button {
   max-width: 405px;
 }
 .single_team {
-  /* @apply shadow rounded-xl my-8 overflow-hidden bg-white transition-all duration-300 group hover:bg-theme-color; */
+  @apply shadow rounded-xl my-8 overflow-hidden bg-white transition-all duration-300 group hover:bg-theme-color;
 }
 .team_image .social li {
   @apply mt-4 opacity-0 invisible transform translate-x-full;
@@ -308,10 +308,10 @@ a, button {
 }
 .single_team:hover .social li:nth-child(4) {
   @apply delay-400;
-}
+} */
 
 /* =========== pricing ============= */
-.pricing_menu .active {
+/* .pricing_menu .active {
   @apply bg-theme-color text-white;
 }
 .pricing_content .tab-pane {
@@ -322,7 +322,7 @@ a, button {
 }
 
 .single_pricing {
-  /* @apply border-2 border-dashed border-border-color rounded-xl p-6 md:p-10 transition-all duration-300 group hover:border-theme-color hover:shadow; */
+  @apply border-2 border-dashed border-border-color rounded-xl p-6 md:p-10 transition-all duration-300 group hover:border-theme-color hover:shadow;
 }
 .single_pricing.active {
   @apply border-theme-color shadow;
@@ -344,15 +344,15 @@ a, button {
 .single_pricing:hover .pricing_btn,
 .single_pricing.active .pricing_btn {
   @apply bg-theme-color text-white;
-}
+} */
 
 /* ========== blog ========= */
-.blog_title a {
+/* .blog_title a {
   @apply block text-black font-semibold mt-5 hover:text-theme-color text-xl sm:text-2xl;
 }
 .more_btn {
   @apply inline-block text-black font-semibold mt-6 hover:text-theme-color;
-}
+} */
 /* ========== contact ========= */
 
 .contact_image {
