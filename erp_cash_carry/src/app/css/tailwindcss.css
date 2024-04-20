@@ -38,22 +38,10 @@ h1 {
 .h2_blue{
   @apply text-2xl md:text-3xl/[40px] lg:text-4xl xl:text-6xl/[68px] text-center font-bold m-0 text-theme-color;
 }
-.big_black_heading{
+.md_black_heading{
   @apply text-base md:text-xl/[32px] xl:text-2xl/[32px] mb-3 text-black;
 }
 
-h3 {
-  font-size: 25px;
-}
-h4 {
-  font-size: 20px;
-}
-h5 {
-  font-size: 18px;
-}
-h6 {
-  font-size: 16px;
-}
 a, button {
   @apply transition-all duration-300;
 }
@@ -114,7 +102,7 @@ a, button {
   @apply fixed top-0 left-0 w-full z-20 transition-all duration-300;
 }
 .sticky {
-  @apply fixed bg-white shadow-md; 
+  @apply bg-white shadow-md; 
 }
 .collapse.show {
   @apply block;
@@ -148,13 +136,13 @@ a, button {
 
 /* =========== hero =========== */
 .header_hero {
-  height: 900px;
+  /* height: 900px; */
 }
-@media (max-width: 1400px) {
+/* @media (max-width: 1400px) {
   .header_hero {
     height: 800px;
   }
-}
+} */
 .hero_shape {
   @apply absolute opacity-40 -z-10;
 }

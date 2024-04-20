@@ -11,7 +11,7 @@ const About = () => {
             <div class="w-full lg:w-1/2">
               <div class="section_title text-center pb-6">
                 <h5 class="h2_blue">About</h5>
-                <h4 class="big_black_heading">Work Process</h4>
+                <h4 class="md_black_heading">Work Process</h4>
               </div>{" "}
               {/* section title */}
             </div>
