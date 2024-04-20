@@ -8,12 +8,29 @@ h1{
     font-size: xx-large;
 }
 
-button , input{
-    padding: 5px;
-    border: 1px solid rgba(200, 200, 200);
+.lni-arrow-right{
+    font-size: xx-large;
+    font-weight: 500;
+}
+.red_icon{
+    font-size: xx-large  !important;
+    color: red !important;
+    margin: 5px;
+}
+.gradient-arrow{
+    width: 50%;
+    min-width: 30px;
+    position: relative;
+    height: 2px;
+    background: linear-gradient(to right, rgb(237, 28, 36), rgb(0, 84, 166));
+    margin: 0px 10px;
 }
 
-table td, table th {
-    border: 1px solid rgba(200, 200, 200);
-    padding: 2px;
-}
+.gradient-arrow i{
+    position: absolute;
+    right: -5px;
+    top: -11px;
+    max-width: none;
+    color: rgb(0, 84, 166);
+    font-size: x-large;
+} 

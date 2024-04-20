@@ -5,105 +5,61 @@ const About = () => {
   <>
    {/*====== SERVICES PART START ======*/}
 
-   <section class="services_area pt-120" id="about">
-        <div class="container">
-          <div class="row justify-center">
-            <div class="w-full lg:w-1/2">
-              <div class="section_title text-center pb-6">
-                <h5 class="h2_blue">About</h5>
-                <h4 class="md_black_heading">Work Process</h4>
+   <section className="section" id="about">
+        <div className="container">
+          <div className="row justify-center">
+            <div className="w-full">
+              <div className="section_title">
+                <h2 className="h2_blue">Achievements Through The Years...</h2>
+                {/* <h4 className="md_black_heading">Work Process</h4> */}
               </div>{" "}
               {/* section title */}
             </div>
           </div>{" "}
+
           {/* row */}
-          <div class="row justify-center">
-            <div class="w-full sm:w-10/12 md:w-6/12 lg:w-4/12">
-              <div class="single_services text-center mt-8 mx-3">
-                <div class="services_icon">
-                  <i class="lni lni-write"></i>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="94"
-                    height="92"
-                    viewBox="0 0 94 92"
-                  >
-                    <path
-                      class="services_shape"
-                      id="Polygon_12"
-                      data-name="Polygon 12"
-                      d="M42.212,2.315a11,11,0,0,1,9.576,0l28.138,13.6a11,11,0,0,1,5.938,7.465L92.83,54.018A11,11,0,0,1,90.717,63.3L71.22,87.842A11,11,0,0,1,62.607,92H31.393a11,11,0,0,1-8.613-4.158L3.283,63.3A11,11,0,0,1,1.17,54.018L8.136,23.383a11,11,0,0,1,5.938-7.465Z"
-                    />
-                  </svg>
+          <div className="row justify-center">
+            <div className="w-full sm:w-10/12 md:w-6/12 lg:w-4/12">
+              <div className="single_services text-center mt-8 mx-3">
+                <div className="services_icon flex text-center justify-center items-center">
+                 <h2 className='lg_black_heading text-black'>20</h2>
+                 <i className="lni lni-plus red_icon"></i>
                 </div>
-                <div class="services_content mt-5">
-                  <h3 class="services_title text-black font-semibold text-xl md:text-3xl">
-                    Research
+                <div className="services_content mt-7">
+                  <h3 className="services_title text-black font-semibold text-xl md:text-3xl">
+                    Developers
                   </h3>
-                  <p class="mt-4">
-                    Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat,
-                    sed diam voluptua. At vero eos accusam et justo duo dolores{" "}
-                  </p>
+                 
                 </div>
               </div>{" "}
               {/* single services */}
             </div>
-            <div class="w-full sm:w-10/12 md:w-6/12 lg:w-4/12">
-              <div class="single_services text-center mt-8 mx-3">
-                <div class="services_icon">
-                  <i class="lni lni-bulb"></i>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="94"
-                    height="92"
-                    viewBox="0 0 94 92"
-                  >
-                    <path
-                      class="services_shape"
-                      id="Polygon_12"
-                      data-name="Polygon 12"
-                      d="M42.212,2.315a11,11,0,0,1,9.576,0l28.138,13.6a11,11,0,0,1,5.938,7.465L92.83,54.018A11,11,0,0,1,90.717,63.3L71.22,87.842A11,11,0,0,1,62.607,92H31.393a11,11,0,0,1-8.613-4.158L3.283,63.3A11,11,0,0,1,1.17,54.018L8.136,23.383a11,11,0,0,1,5.938-7.465Z"
-                    />
-                  </svg>
+            <div className="w-full sm:w-10/12 md:w-6/12 lg:w-4/12">
+              <div className="single_services text-center mt-8 mx-3">
+              <div className="services_icon flex text-center justify-center items-center">
+                 <h2 className='lg_black_heading text-black'>30</h2>
+                 <i className="lni lni-plus red_icon"></i>
                 </div>
-                <div class="services_content mt-5">
-                  <h3 class="services_title text-black font-semibold text-xl md:text-3xl">
-                    Prototype
+                <div className="services_content mt-7">
+                  <h3 className="services_title text-black font-semibold text-xl md:text-3xl">
+                    Projects delivered
                   </h3>
-                  <p class="mt-4">
-                    Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat,
-                    sed diam voluptua. At vero eos accusam et justo duo dolores{" "}
-                  </p>
+                 
                 </div>
               </div>{" "}
               {/* single services */}
             </div>
-            <div class="w-full sm:w-10/12 md:w-6/12 lg:w-4/12">
-              <div class="single_services text-center mt-8 mx-3">
-                <div class="services_icon">
-                  <i class="lni lni-checkmark-circle"></i>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="94"
-                    height="92"
-                    viewBox="0 0 94 92"
-                  >
-                    <path
-                      class="services_shape"
-                      id="Polygon_12"
-                      data-name="Polygon 12"
-                      d="M42.212,2.315a11,11,0,0,1,9.576,0l28.138,13.6a11,11,0,0,1,5.938,7.465L92.83,54.018A11,11,0,0,1,90.717,63.3L71.22,87.842A11,11,0,0,1,62.607,92H31.393a11,11,0,0,1-8.613-4.158L3.283,63.3A11,11,0,0,1,1.17,54.018L8.136,23.383a11,11,0,0,1,5.938-7.465Z"
-                    />
-                  </svg>
+            <div className="w-full sm:w-10/12 md:w-6/12 lg:w-4/12">
+              <div className="single_services text-center mt-8 mx-3">
+              <div className="services_icon flex text-center justify-center items-center">
+                 <h2 className='lg_black_heading text-black'>90</h2>
+                 <i className="lni lni-star-empty red_icon"></i>
                 </div>
-                <div class="services_content mt-5">
-                  <h3 class="services_title text-black font-semibold text-xl md:text-3xl">
-                    Build
+                <div className="services_content mt-7">
+                  <h3 className="services_title text-black font-semibold text-xl md:text-3xl">
+                    Ratings
                   </h3>
-                  <p class="mt-4">
-                    Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat,
-                    sed diam voluptua. At vero eos accusam et justo duo dolores{" "}
-                  </p>
+                 
                 </div>
               </div>{" "}
               {/* single services */}
