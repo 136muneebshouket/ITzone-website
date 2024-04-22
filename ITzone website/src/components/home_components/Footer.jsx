@@ -5,7 +5,7 @@ const Footer = () => {
    <>
     {/*====== FOOTER PART START ======*/}
 
-    <footer id="footer" class="footer_area bg-black relative z-10">
+    <footer id="footer" class="footer_area bg-darkblue-color relative z-10">
         <div class="shape absolute left-0 top-0 opacity-5 h-full overflow-hidden w-1/3">
           <img src="/assets/images/footer-shape-left.png" alt="" />
         </div>

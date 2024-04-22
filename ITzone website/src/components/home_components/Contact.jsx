@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Contact = () => {
   return (
@@ -8,7 +9,7 @@ const Contact = () => {
      <section id="contact" class="contact_area relative pt-18 pb-120">
         <div class="contact_image flex items-center justify-end">
           <div class="image lg:pr-13">
-            <img src="/assets/images/contact.svg" alt="about" />
+            <Image src="/assets/images/contact.svg" width={100} height={100} alt="about" />
           </div>
         </div>{" "}
         {/* about image */}

@@ -34,3 +34,11 @@ h1{
     color: rgb(0, 84, 166);
     font-size: x-large;
 } 
+
+.blue_banner{
+    background-image: url(../../public/assets/images/creativity-background.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

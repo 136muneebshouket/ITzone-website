@@ -15,13 +15,16 @@ const Header = () => {
             <h1 className="mb-6">
               Software Development & Consultancy For Entrepreneurs
             </h1>
-            <p className="text-white text-center p_under_heading" >
+            <p className="text-white text-center p_under_heading">
               200+ Enterprises Have Already Garnered Great Financial Results And
               Market Outreach With Our Time-Tested Development Flow, Error-Free
               Code Quality, And On-Time Project Delivery.
             </p>
 
-             <Contact_link position={'m-auto my-9'}/>
+            <Contact_link
+              position={"m-auto my-9"}
+              text={"Schedule a meeting"}
+            />
           </div>
         </div>
       </section>

@@ -1,30 +1,31 @@
 import React from "react";
-
+import Image from "next/image";
 const What_we_do = () => {
   const arr = [
     {
       t: "Develop An MVP",
       p: "Launch foolproof MVPs that stand the test of time.",
+      img:'/lounch-icon.svg'
     },
     {
-      t: "Develop An MVP",
-      p: "Launch foolproof MVPs that stand the test of time.",
+      t: "Expand Your Team",
+      p: "Get the best returns on investment with our hi-tech industry experts.",
+      img:'/expand-icon.svg'
     },
     {
-      t: "Develop An MVP",
-      p: "Launch foolproof MVPs that stand the test of time.",
+      t: "Get CTO’s Advice",
+      p: "Know what the market leaders have to say to grow your technical footprint.",
+      img:'/advice-icon.svg'
     },
     {
-      t: "Develop An MVP",
-      p: "Launch foolproof MVPs that stand the test of time.",
+      t: "Create A Design",
+      p: "We live and breathe design thinking. Take advantage!",
+      img:'/create-design-icon.svg'
     },
     {
-      t: "Develop An MVP",
-      p: "Launch foolproof MVPs that stand the test of time.",
-    },
-    {
-      t: "Develop An MVP",
-      p: "Launch foolproof MVPs that stand the test of time.",
+      t: "Transform Your Enterprise",
+      p: "Stop chasing the trends and start building your enterprise differentiator.",
+      img:'/transform-icon.svg'
     },
   ];
   return (
@@ -49,10 +50,12 @@ const What_we_do = () => {
             {arr.map((v) => {
               return (
                 <>
-                  <div className="flex m-2 md:w-2/5 xl:w-1/4">
-                    <img
+                  <div className="flex my-7 mx-3 md:w-2/5 ">
+                    <Image
                       className="my-2 mx-4 w-14 h-14"
-                      src="/assets/images/favicon.png"
+                      width={100}
+                      height={100}
+                      src={`/assets/images/icons/${v.img}`}
                       alt=""
                     />
                     <div>

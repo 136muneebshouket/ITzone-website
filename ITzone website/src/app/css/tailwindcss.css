@@ -38,11 +38,17 @@ h1 {
 .h2_blue{
   @apply text-2xl md:text-3xl/[40px] lg:text-4xl xl:text-6xl/[68px] text-center font-bold m-0 text-theme-color;
 }
+.h2_white{
+  @apply text-2xl md:text-3xl/[40px] lg:text-4xl text-center font-bold m-0 text-white;
+}
 .md_black_heading{
   @apply text-base md:text-xl/[32px] xl:text-xl/[32px] text-black;
 }
 .md_red_heading{
   @apply text-base md:text-xl/[32px] xl:text-xl/[32px] text-red-500;
+}
+.md_white_heading{
+  @apply text-base md:text-xl/[32px] xl:text-xl/[32px] text-white;
 }
 .lg_black_heading{
   @apply text-5xl/[32px] font-bold text-black;
