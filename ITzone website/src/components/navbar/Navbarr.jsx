@@ -24,11 +24,13 @@ const Navbarr = () => {
                   </a>
                 </div>
                 {/* primary */}
-                <div className="hidden lg:flex gap-8 ">
-                  <a href="#" className="">
+                <div className="hidden lg:flex gap-8">
+                  <Link href="/" className="">
                     Home
-                  </a>
-                  <a href="#">About</a>
+                  </Link>
+                  <Link href="/services/web" className="">
+                    web
+                  </Link>
                   <a href="#">Contact Us</a>
                 </div>
               </div>

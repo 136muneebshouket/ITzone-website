@@ -22,7 +22,7 @@ export default function Home() {
     <Awards/>
     
     {/* <Contact/> */}
-    <Footer/>
+   
     
     </>
   );

@@ -10,6 +10,7 @@ import "@/app/css/slick.css";
 // import "@/app/css/edit_modal.css";
 import Navbarr from "@/components/navbar/Navbarr";
 import Provider from "@/configs/Provider";
+import Footer from "@/components/home_components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
         <Provider>
           <Navbarr />
           {children}
+          <Footer/>
         </Provider>
       </body>
     </html>

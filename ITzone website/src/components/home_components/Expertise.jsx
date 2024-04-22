@@ -32,7 +32,6 @@ const Expertise = () => {
             <div className="w-full">
               <div className="section_title">
                 <h2 className="h2_blue">Expertise to ace your next project</h2>
-                
               </div>
             </div>
           </div>
