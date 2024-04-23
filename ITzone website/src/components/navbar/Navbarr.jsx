@@ -15,23 +15,23 @@ const Navbarr = () => {
               <div className="flex items-center gap-16 my-6">
                 {/* logo */}
                 <div>
-                  <a
+                  <Link
                     href="/"
                     className="flex gap-1 font-bold text-gray-700 items-center "
                   >
                     {/* <PaperAirplaneIcon className="h-6 w-6 text-primary" /> */}
                     <span>ITZone.uk</span>
-                  </a>
+                  </Link>
                 </div>
                 {/* primary */}
                 <div className="hidden lg:flex gap-8">
-                  <Link href="/" className="">
-                    Home
-                  </Link>
                   <Link href="/services/web" className="">
                     web
                   </Link>
-                  <a href="#">Contact Us</a>
+                  <Link href="/contact" className="">
+                    Contact
+                  </Link>
+                 
                 </div>
               </div>
               {/* secondary */}
