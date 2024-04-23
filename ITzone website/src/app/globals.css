@@ -41,9 +41,16 @@ h1{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+.slick-slide > div {
+    margin: 1rem;
+}
+
 .tick{
     margin-right: 10px;
     font-size: larger !important;
     font-weight: 600 !important;
     color: #00C3FE !important;
 }
+
