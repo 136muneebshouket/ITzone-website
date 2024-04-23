@@ -9,12 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@material-tailwind/react": "^2.1.9",
     "axios": "^1.6.7",
     "mongoose": "^8.2.3",
     "next": "14.1.0",
     "query-string": "^9.0.0",
     "react": "^18",
     "react-dom": "^18",
+    "react-icons": "^5.1.0",
     "react-slick": "^0.30.2",
     "slick-carousel": "^1.8.1"
   },

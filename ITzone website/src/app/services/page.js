@@ -1,4 +1,4 @@
-import Services from "@/components/services_components/Services_Main";
+import Services from "@/components/services_components/Services";
 
 const Page = () => {
     return (
