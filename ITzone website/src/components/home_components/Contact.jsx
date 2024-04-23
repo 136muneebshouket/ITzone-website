@@ -9,7 +9,7 @@ const Contact = () => {
      <section id="contact" class="contact_area relative pt-18 pb-120">
         <div class="contact_image flex items-center justify-end">
           <div class="image lg:pr-13">
-            <Image src="/assets/images/contact.svg" width={100} height={100} alt="about" />
+            <Image src="/assets/images/contact.svg" className='w-full' width={100} height={100} alt="about" />
           </div>
         </div>{" "}
         {/* about image */}
@@ -18,9 +18,9 @@ const Contact = () => {
             <div class="w-full lg:w-1/2">
               <div class="contact_wrapper mt-11">
                 <div class="section_title pb-4">
-                  <h5 class="sub_title">Contact</h5>
-                  <h4 class="main_title">Get In Touch</h4>
-                  <p>
+                  <h1 class="text-darkblue-color text-left ">Contact</h1>
+                  
+                  <p className='text-left mt-5'> 
                     Lorem ipsum dolor sitrg amet, consetetur sadipscing elitr
                     sed diam nonumy eirmod tempor invidunt ut labore et dolore
                     magna.
