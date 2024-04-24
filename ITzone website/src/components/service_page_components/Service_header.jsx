@@ -8,23 +8,28 @@ const Service_header = () => {
         {/* header navbar */}
         <div
           id="home"
-          class="header_hero bg-darkblue-color bg-[url('/assets/images/lightgradient.png')] bg-center bg-no-repeat h-screen relative z-10 overflow-hidden flex items-center"
+          class="header_hero h-auto relative z-10 overflow-hidden flex flex-col md:flex-row items-center mx-auto"
         >
-          <div class="container w-11/12 md:w-4/5 text-center">
-            <h1 className="mb-6">
+          <div class="container order-last w-full my-10 md:w-2/5 text-center md:ml-20 md:order-1">
+            <h1 className="lg_black_heading leading-10 text-left text-theme-color mb-6">
               Software Development & Consultancy For Entrepreneurs
             </h1>
-            <p className="text-white text-center p_under_heading">
+            <p className="text-left">
               200+ Enterprises Have Already Garnered Great Financial Results And
               Market Outreach With Our Time-Tested Development Flow, Error-Free
               Code Quality, And On-Time Project Delivery.
             </p>
 
             <Contact_link
-              position={"m-auto my-9"}
+              position={"my-9"}
               text={"Schedule a meeting"}
             />
           </div>
+
+          <div className= "w-full order-1 md:w-3/5 md:order-2 h-full">
+            <img src="/assets/images/header-image.svg" alt="" />
+          </div>
+         
         </div>
       </section>
     </>

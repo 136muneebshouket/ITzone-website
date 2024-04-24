@@ -51,7 +51,7 @@ h1 {
   @apply text-base md:text-xl/[32px] xl:text-xl/[32px] text-white;
 }
 .lg_black_heading{
-  @apply text-5xl/[32px] font-bold text-black;
+  @apply text-4xl/[45px] font-normal text-black;
 }
 
 a, button {
