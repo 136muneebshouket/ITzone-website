@@ -3,7 +3,6 @@ import Contact_link from "../small_components/Contact_link";
 
 const Service_header = () => {
   return (
-    <>
       <section class="header_area">
         {/* header navbar */}
         <div
@@ -27,7 +26,6 @@ const Service_header = () => {
           </div>
         </div>
       </section>
-    </>
   );
 };
 

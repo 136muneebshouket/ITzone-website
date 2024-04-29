@@ -24,26 +24,22 @@ const Benefits = () => {
     },
   ];
   return (
-    <>
-      <div className="section_title mt-10">
-        <h2 className="services_title mb-5 text-left text-black font-semibold text-xl md:text-4xl">
-          Benefits
-        </h2>
-        <ul>
-          {keypoints?.map((v) => {
-            return (
-              <>
-                <li className="my-5">
-                  <p className="text-left ">
-                    <strong>{v.strong}</strong>:{v.p}
-                  </p>
-                </li>
-              </>
-            );
-          })}
-        </ul>
-      </div>
-    </>
+    <div className="section_title mt-10">
+      <h2 className="services_title mb-5 text-left text-black font-semibold text-xl md:text-4xl">
+        Benefits
+      </h2>
+      <ul>
+        {keypoints?.map((v) => {
+          return (
+            <li key={v.strong} className="my-5">
+              <p className="text-left ">
+                <strong>{v.strong}</strong>:{v.p}
+              </p>
+            </li>
+          );
+        })}
+      </ul>
+    </div>
   );
 };
 

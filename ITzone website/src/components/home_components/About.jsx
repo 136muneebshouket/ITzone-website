@@ -12,10 +12,10 @@ const About = () => {
               <div className="section_title">
                 <h2 className="h2_blue">Achievements Through The Years...</h2>
                 {/* <h4 className="md_black_heading">Work Process</h4> */}
-              </div>{" "}
+              </div>
               {/* section title */}
             </div>
-          </div>{" "}
+          </div>
 
           {/* row */}
           <div className="row justify-center">
@@ -69,10 +69,7 @@ const About = () => {
         </div>{" "}
         {/* container */}
       </section>
-
       {/*====== SERVICES PART ENDS ======*/}
-
-  
   </>
   )
 }

@@ -107,6 +107,9 @@ a, button {
 .p_under_heading {
   @apply w-11/12 md:w-9/12 m-auto mt-5;
 }
+.p_under_heading2 {
+  @apply w-11/12 md:text-xl lg:text-2xl xl:text-3xl m-auto mt-5;
+}
 .section_content{
   @apply max-w-screen-xl m-auto mt-10;
 }
