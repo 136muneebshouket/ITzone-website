@@ -1,4 +1,5 @@
 import ServiceCard from "./ServiceCard";
+import Services_Header from "./Services_Header";
 import SlickSlider from "./SlickSlider";
 import TechWeUse from "./TechWeUse";
 
@@ -31,6 +32,7 @@ const services = [
 const Services = () => {
     return (
         <>
+            <Services_Header />
             <section className="section" id="about">
                 <div className="container">
                     <div className="row justify-center">

@@ -3,8 +3,7 @@ import React from 'react'
 const Blue_banner = () => {
   return (
     <>
-    
-    <section className="section blue_banner" id="about">
+      <section className="section blue_banner" id="about">
         <div className="container">
           <div className="row justify-center">
             <div className="w-full">
@@ -19,7 +18,7 @@ const Blue_banner = () => {
         </div>
         {/* container */}
       </section>
-    
+
     </>
   )
 }

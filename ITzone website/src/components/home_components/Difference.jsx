@@ -74,37 +74,35 @@ const Difference = () => {
 
             {arr.map((v) => {
               return (
-                <>
-                  <div className="flex justify-around items-center m-3 p-2">
-                    <div className="flex flex-col justify-center items-center w-full">
-                      <Image
-                        className="m-2 w-10"
-                        width={100}
-                        height={100}
-                        src={`/assets/images/icons/${v.img1}`}
-                        alt=""
-                      />
-                      <p className="text-center text-sm">
-                        {v.t1}
-                      </p>
-                    </div>
-                    <div className='gradient-arrow'>
-                      <i className="lni lni-arrow-right"></i>
-                    </div>
-                    <div className="flex flex-col justify-center items-center w-full">
-                      <Image
-                        className="m-2 w-10"
-                        width={100}
-                        height={100}
-                        src={`/assets/images/icons/${v.img2}`}
-                        alt=""
-                      />
-                      <p className="text-center text-sm">
-                        {v.t2}
-                      </p>
-                    </div>
+                <div key={v.t1} className="flex justify-around items-center m-3 p-2">
+                  <div className="flex flex-col justify-center items-center w-full">
+                    <Image
+                      className="m-2 w-10"
+                      width={100}
+                      height={100}
+                      src={`/assets/images/icons/${v.img1}`}
+                      alt=""
+                    />
+                    <p className="text-center text-sm">
+                      {v.t1}
+                    </p>
                   </div>
-                </>
+                  <div className='gradient-arrow'>
+                    <i className="lni lni-arrow-right"></i>
+                  </div>
+                  <div className="flex flex-col justify-center items-center w-full">
+                    <Image
+                      className="m-2 w-10"
+                      width={100}
+                      height={100}
+                      src={`/assets/images/icons/${v.img2}`}
+                      alt=""
+                    />
+                    <p className="text-center text-sm">
+                      {v.t2}
+                    </p>
+                  </div>
+                </div>
               );
             })}
           </div>
