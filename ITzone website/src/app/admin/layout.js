@@ -2,7 +2,7 @@ import Sidebar from "@/components/admin/Sidebar";
 
 const AdminLayout = ({ children }) => {
     return (
-        <div className="flex h-[100vh] ">
+        <div className="flex h-min-[100vh] ">
             <Sidebar />
             <>
                 {children}

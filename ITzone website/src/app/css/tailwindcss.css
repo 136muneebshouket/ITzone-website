@@ -375,10 +375,26 @@ a, button {
   @apply w-8 h-8 rounded-full bg-white bg-opacity-10 text-white flex items-center justify-center hover:text-theme-color hover:bg-opacity-100;
 }
 
-.services_form > div {
-  @apply flex gap-4 m-2 items-center ;
+
+
+
+/* =========== Admin page ========== */
+
+.side-bar > ul{
+  @apply flex justify-center
+}
+.services_form div {
+  @apply flex gap-3 m-2;
 }
 
-.services_form > div > input , .services_form > div > textarea {
+.services_form div label { 
+  @apply w-150; 
+}
+
+.services_form > div input , .services_form > div textarea {
   @apply p-1 rounded bg-transparent border w-full;
+}
+
+.services_form > div input:focus , .services_form > div textarea:focus {
+  @apply border-slate-800;
 }
