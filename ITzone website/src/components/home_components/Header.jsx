@@ -5,13 +5,13 @@ const Header = () => {
     <>
       {/*====== HEADER PART START ======*/}
 
-      <section class="header_area">
+      <section className="header_area">
         {/* header navbar */}
         <div
           id="home"
-          class="header_hero bg-[url('/assets/images/home-banner.png')] bg-center bg-no-repeat h-screen relative z-10 overflow-hidden flex items-center"
+          className="header_hero bg-[url('/assets/images/home-banner.png')] bg-center bg-no-repeat h-screen relative z-10 overflow-hidden flex items-center"
         >
-          <div class="container w-11/12 md:w-4/5 text-center">
+          <div className="container w-11/12 md:w-4/5 text-center">
             <h1 className="mb-6">
               Software Development & Consultancy For Entrepreneurs
             </h1>
