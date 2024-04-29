@@ -1,16 +1,16 @@
 'use client'
 import { useState, useRef } from "react";
 import InputForm from "./InputForm"; 
-import ImageKit from "imagekit";
-import slugify from 'slugify';
+// import ImageKit from "imagekit";
+// import slugify from 'slugify';
 import axios from "axios";
 
 
-const imageKit = new ImageKit({
-  publicKey: process.env.publicKey,
-  privateKey: process.env.privateKey,
-  urlEndpoint: process.env.urlEndPoint,
-});
+// const imageKit = new ImageKit({
+//   publicKey: process.env.publicKey,
+//   privateKey: process.env.privateKey,
+//   urlEndpoint: process.env.urlEndPoint,
+// });
 
 const ServicesForm = () => {
 
@@ -44,10 +44,12 @@ const ServicesForm = () => {
       alert("Some Data Fields are Empty. Fill All of them...");
       return;
     }   
+    const heading = formData.heading,
+    content = formData.content,
+    heading2 = formData.heading2,
+    accordian = formData.accordions;
 
-    // Implement form submission logic here (e.g., sending data to backend)
-    // Replace with your actual submission code (e.g., using fetch or an HTTP library)
-    axios.post('/api/services')
+    axios.post('/api/services', {heading, content, heading2, accordian })
       .then((result) => {console.log(result)})
       .catch((error) => {
         console.error("Form submission error:", error);

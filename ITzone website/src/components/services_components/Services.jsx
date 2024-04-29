@@ -24,8 +24,7 @@ const services = [
         content: 'Your digital journey can be challenging and unique but well-informed leadership and technical guidance can lead you to successful technology adoption. We are your trusted tech allies dedicated to providing and executing a sustainable roadmap per your business needs.',
         link: 'cto-as-a-service'
     }
-
-]
+];
 
 
 

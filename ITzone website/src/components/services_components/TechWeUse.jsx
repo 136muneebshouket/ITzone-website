@@ -134,19 +134,6 @@ const TechWeUse = () => {
                 </div>
                 {/* content */}
                 <>
-                    {/* <Accordion open={alwaysOpen} className="mx-auto my-5 w-[80%] border border-slate-200 rounded-2xl" >
-                        <AccordionHeader onClick={handleAlwaysOpen} className="ps-4 border-slate-300 border border-t-0 border-x-0 rounded-2xl">Backend</AccordionHeader>
-                        <AccordionBody>
-                            <div className="grid grid-cols-2 lg:grid-cols-3 gap-3">
-                                {backendImgs.map((n) =>
-                                    <div className="flex flex-col h-25 justify-center items-center">
-                                        <Image src={'/assets/images/tech-svgs/' + n.url} className="h-25 w-25" height={100} width={100} alt={n.alt} />
-                                        <p className="" >{n.alt}</p>
-                                    </div>
-                                )}
-                            </div>
-                        </AccordionBody>
-                    </Accordion> */}
                     {tech.map((n) => (
                         <Accordion open={open === n.num} className="mx-auto border-slate-200 my-5 w-[80%] border rounded-2xl">
                             <AccordionHeader onClick={() => handleOpen(n.num)} className="ps-4 border-slate-300 border border-t-0 border-x-0 rounded-2xl">{n.heading}</AccordionHeader>
